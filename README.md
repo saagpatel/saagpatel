@@ -6,7 +6,7 @@ Platform engineer focused on DX and AI infrastructure — things developers inst
 
 **Audit your MCP servers** — permission risks, prompt injection threats, and schema drift across your entire agent config:
 ```shell
-uvx --from mcp-permission-audit mcp-audit discover
+uvx --from mcp-audits mcp-audit discover
 ```
 
 **Generate production-ready MCP servers** — plain English → FastMCP 3.x project with security validation before anything hits disk:
