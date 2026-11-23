@@ -18,8 +18,8 @@ Start here: **[Trust Doesn't Survive the Handoff](https://saagarpatel.dev/writin
 Requires `uv` (which provides `uvx`) and network access on the first run to download the tools.
 
 ```bash
-uvx --from mcp-audits mcp-audit scan --skip-connect
-uvx --from fastmcp-builder mcpforge init echo-server
+uvx --from fastmcp-builder mcpforge init echo-server --output ./echo-server
+uvx --from mcp-audits mcp-audit check --config ./echo-server/config.json
 ```
 
 ---
